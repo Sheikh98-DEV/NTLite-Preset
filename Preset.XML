@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>06/12/2025 00:55:00</Date>
+	<Date>06/12/2025 12:51:18</Date>
 	<AppInfo>
 		<Version>2025.6.10473</Version>
 		<Licensed>No</Licensed>
@@ -9,7 +9,7 @@
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4349 (en-US)</Version>
-		<GUID>{36979D1F-C510-4D76-89F3-395F7A90ECCE}</GUID>
+		<GUID>{F068A802-E611-4E32-AE51-B898505AE25D}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="Custom">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
@@ -149,6 +149,7 @@
 		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
 		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
 		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>microsoftwindows.client.coreai 'Windows Feature Experience Pack - CoreAI'</c>
 		<c>mobilepc</c>
 		<c>mobilepc_location 'Location notifications'</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
@@ -282,13 +283,11 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Qcamain10x64~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft-RemoteDesktopConnection">false</Feature>
-		<Feature name="Windows.SmbDirect~~~~">false</Feature>
+		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
+		<Feature name="Windows.SimpleTCP.Content~~~~">false</Feature>
 		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-TCP-PortSharing45">false</Feature>
-		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
-		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
 		<Feature name="VBSCRIPT~~~~">false</Feature>
-		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-Services45">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
@@ -379,6 +378,9 @@
 	</Unattended>
 	<Tweaks>
 		<Settings>
+			<TweakGroup name="AutoLogger">
+				<Tweak name="ReadyBoot\Start">0</Tweak>
+			</TweakGroup>
 			<TweakGroup name="CrashControl">
 				<Tweak name="CrashControl\EnableLogFile">0</Tweak>
 				<Tweak name="CrashControl\LogEvent">0</Tweak>
@@ -414,6 +416,7 @@
 			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="Explorer\NoThumbnailCache">1</Tweak>
 				<Tweak name="Explorer\NoCDBurning">1</Tweak>
 				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
@@ -432,6 +435,7 @@
 				<Tweak name="Explorer\HubMode">1</Tweak>
 				<Tweak name="Advanced\DontUsePowerShellOnWinX">1</Tweak>
 				<Tweak name="Explorer\ShowCloudFilesInQuickAccess">0</Tweak>
+				<Tweak name="Advanced\ShowSyncProviderNotifications">0</Tweak>
 				<Tweak name="Advanced\HideDrivesWithNoMedia">0</Tweak>
 				<Tweak name="Advanced\HideFileExt">0</Tweak>
 				<Tweak name="Advanced\Hidden">1</Tweak>
@@ -497,11 +501,14 @@
 				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
 				<Tweak name="AppHost\EnableWebContentEvaluation">0</Tweak>
 				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
+				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
 				<Tweak name="WindowsCopilot\TurnOffWindowsCopilot">1</Tweak>
 				<Tweak name="WindowsAI\DisableAIDataAnalysis">1</Tweak>
 				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="StartTweaks">
+				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
+				<Tweak name="Explorer\HideRecentlyAddedApps">1</Tweak>
 				<Tweak name="Start\AllowPinnedFolderDocuments">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderDownloads">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderFileExplorer">0</Tweak>
@@ -517,6 +524,7 @@
 				<Tweak name="Advanced\Start_IrisRecommendations">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="System">
+				<Tweak name="Windows\DisableATMFD">1</Tweak>
 				<Tweak name="GameBar\UseNexusForGameBarEnabled">0</Tweak>
 				<Tweak name="Appx\AllowAutomaticAppArchiving">0</Tweak>
 				<Tweak name="BitLocker\PreventDeviceEncryption">1</Tweak>
@@ -527,6 +535,10 @@
 				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
 				<Tweak name="EMDMgmt\GroupPolicyDisallowCaches">1</Tweak>
 				<Tweak name="RDP-Tcp\UserAuthentication">0</Tweak>
+				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
+				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
+				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
+				<Tweak name="StickyKeys\Flags">506</Tweak>
 				<Tweak name="StoragePolicy\01">1</Tweak>
 				<Tweak name="StoragePolicy\512">0</Tweak>
 				<Tweak name="StoragePolicy\256">1</Tweak>
@@ -569,7 +581,6 @@
 			<TweakGroup name="services">
 				<Tweak name="AxInstSV\AxInstSV">4</Tweak>
 				<Tweak name="AarSvc\AarSvc">4</Tweak>
-				<Tweak name="AppReadiness\AppReadiness">4</Tweak>
 				<Tweak name="AppIDSvc\AppIDSvc">4</Tweak>
 				<Tweak name="ALG\ALG">4</Tweak>
 				<Tweak name="AssignedAccessManagerSvc\AssignedAccessManagerSvc">4</Tweak>
@@ -593,9 +604,7 @@
 				<Tweak name="DsSvc\DsSvc">4</Tweak>
 				<Tweak name="DusmSvc\DusmSvc">4</Tweak>
 				<Tweak name="DoSvc\DoSvc">4</Tweak>
-				<Tweak name="DeviceAssociationService\DeviceAssociationService">4</Tweak>
 				<Tweak name="DmEnrollmentSvc\DmEnrollmentSvc">4</Tweak>
-				<Tweak name="dmwappushservice\dmwappushservice">4</Tweak>
 				<Tweak name="DeviceAssociationBrokerSvc\DeviceAssociationBrokerSvc">4</Tweak>
 				<Tweak name="DevicePickerUserSvc\DevicePickerUserSvc">4</Tweak>
 				<Tweak name="DevQueryBroker\DevQueryBroker">4</Tweak>
@@ -636,7 +645,6 @@
 				<Tweak name="wlpasvc\wlpasvc">4</Tweak>
 				<Tweak name="McpManagementService\McpManagementService">4</Tweak>
 				<Tweak name="MessagingService\MessagingService">4</Tweak>
-				<Tweak name="wlidsvc\wlidsvc">4</Tweak>
 				<Tweak name="cloudidsvc\cloudidsvc">4</Tweak>
 				<Tweak name="MSiSCSI\MSiSCSI">4</Tweak>
 				<Tweak name="NgcSvc\NgcSvc">4</Tweak>
@@ -646,7 +654,6 @@
 				<Tweak name="InstallService\InstallService">4</Tweak>
 				<Tweak name="SmsRouter\SmsRouter">4</Tweak>
 				<Tweak name="NaturalAuthentication\NaturalAuthentication">4</Tweak>
-				<Tweak name="Netlogon\Netlogon">4</Tweak>
 				<Tweak name="NcdAutoSetup\NcdAutoSetup">4</Tweak>
 				<Tweak name="NcaSvc\NcaSvc">4</Tweak>
 				<Tweak name="netprofm\netprofm">4</Tweak>
@@ -693,7 +700,6 @@
 				<Tweak name="VSS\VSS">4</Tweak>
 				<Tweak name="WaaSMedicSvc\WaaSMedicSvc">4</Tweak>
 				<Tweak name="WarpJITSvc\WarpJITSvc">4</Tweak>
-				<Tweak name="TokenBroker\TokenBroker">4</Tweak>
 				<Tweak name="webthreatdefsvc\webthreatdefsvc">4</Tweak>
 				<Tweak name="webthreatdefusersvc\webthreatdefusersvc">4</Tweak>
 				<Tweak name="WebClient\WebClient">4</Tweak>
@@ -704,7 +710,6 @@
 				<Tweak name="FrameServer\FrameServer">4</Tweak>
 				<Tweak name="FrameServerMonitor\FrameServerMonitor">4</Tweak>
 				<Tweak name="wcncsvc\wcncsvc">4</Tweak>
-				<Tweak name="mpssvc\mpssvc">4</Tweak>
 				<Tweak name="WEPHOSTSVC\WEPHOSTSVC">4</Tweak>
 				<Tweak name="WerSvc\WerSvc">4</Tweak>
 				<Tweak name="StiSvc\StiSvc">4</Tweak>
@@ -729,6 +734,7 @@
 		<ImageTasks>
 			<Task>imageSaveRebuild</Task>
 			<Task>imageFormatWim</Task>
+			<Task>tweaksettings_boot.wim_02_2_64</Task>
 			<Task>imageOptionsCreateIso</Task>
 		</ImageTasks>
 		<AutoIsoFile>C:\Huawei Assets\Windows11Huawei.iso</AutoIsoFile>
