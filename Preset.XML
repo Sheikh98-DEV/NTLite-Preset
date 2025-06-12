@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>06/12/2025 12:51:18</Date>
+	<Date>06/12/2025 17:29:56</Date>
 	<AppInfo>
 		<Version>2025.6.10473</Version>
 		<Licensed>No</Licensed>
@@ -9,7 +9,7 @@
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4349 (en-US)</Version>
-		<GUID>{F068A802-E611-4E32-AE51-B898505AE25D}</GUID>
+		<GUID>{120FE799-1123-4A5E-98AA-70208D2F78A8}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="Custom">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
@@ -250,6 +250,7 @@
 	<Features>
 		<Feature name="NetFx4-AdvSrvs">false</Feature>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~~~0.0.1.0">false</Feature>
@@ -284,16 +285,16 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft-RemoteDesktopConnection">false</Feature>
 		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
-		<Feature name="Windows.SimpleTCP.Content~~~~">false</Feature>
+		<Feature name="Windows.SmbDirect~~~~">false</Feature>
 		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-TCP-PortSharing45">false</Feature>
-		<Feature name="VBSCRIPT~~~~">false</Feature>
+		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-Services45">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
-		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
 		<Feature name="SearchEngine-Client-Package">false</Feature>
 		<Feature name="Windows.WinOcr~~~~">false</Feature>
+		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
 	<Packages>
 		<Options>
