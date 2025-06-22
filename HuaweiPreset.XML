@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>06/13/2025 18:25:38</Date>
+	<Date>06/18/2025 15:52:00</Date>
 	<AppInfo>
-		<Version>2025.6.10473</Version>
+		<Version>2025.6.10476</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
 		<Host>Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.5854 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4351 (en-US)</Version>
-		<GUID>{D62F3349-6921-4D82-997F-8C8853893284}</GUID>
+		<GUID>{3B86C9D0-E9C6-925F-EC49-E3202BC11CDC}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="Custom">
-		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
+		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
 		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>apxunit 'APX speaker and microphone driver'</c>
 		<c>assembly.net '.NET assembly cache'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
 		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
+		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>enhancedstorage 'Enhanced Storage'</c>
@@ -26,8 +27,6 @@
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
 		<c>fciclient 'File Server Resource Manager'</c>
 		<c>gamingperipherals 'Gaming Peripherals (Xbox GIP)'</c>
-		<c>help 'Windows Help content'</c>
-		<c>helpsupport 'Help file support (CHM)'</c>
 		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
 		<c>ias 'Internet Authentication Service (IAS)'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
@@ -37,6 +36,7 @@
 		<c>langafrikaans 'Afrikaans'</c>
 		<c>langalbanian 'Albanian'</c>
 		<c>langamharic 'Amharic'</c>
+		<c>langarabic 'Arabic'</c>
 		<c>langarmenian 'Armenian'</c>
 		<c>langassamese 'Assamese'</c>
 		<c>langazerbaijani 'Azerbaijani'</c>
@@ -120,29 +120,17 @@
 		<c>langwelsh 'Welsh'</c>
 		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
-		<c>mediacodec 'Windows Media Codecs'</c>
-		<c>mediacodec32 'Windows Media Codecs - 32 bit'</c>
-		<c>mediacodeccore 'Windows Media Codecs (Core)'</c>
-		<c>mediafoundation32 'Media Foundation - 32 bit'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
-		<c>microsoft.accountscontrol 'Email and accounts'</c>
 		<c>microsoft.asynctextservice 'AsyncTextService'</c>
-		<c>microsoft.bioenrollment 'Windows Hello Setup'</c>
-		<c>microsoft.creddialoghost 'Credential Dialog'</c>
 		<c>microsoft.ecapp 'Eye Control'</c>
 		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
-		<c>microsoft.windows.augloop.cbs</c>
-		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
 		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
 		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
-		<c>microsoft.windows.oobenetworkcaptiveportal 'Captive Portal Flow'</c>
-		<c>microsoft.windows.oobenetworkconnectionflow 'Network Connection Flow'</c>
 		<c>microsoft.windows.parentalcontrols 'Microsoft Family Safety'</c>
-		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
 		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
 		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
 		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
@@ -152,13 +140,9 @@
 		<c>mobilepc_location 'Location notifications'</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
 		<c>mobilepc_sensors 'Sensors'</c>
-		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
 		<c>multipointconnector 'MultiPoint Connector'</c>
-		<c>ncb 'Network Connection Broker'</c>
 		<c>otherthemes 'Windows Personalization themes'</c>
-		<c>photoviewer 'Photo Viewer'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
-		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
 		<c>rdc 'Remote Differential Compression (RDC)'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
 		<c>remoteaccessservice 'Routing and Remote Access Service'</c>
@@ -172,19 +156,15 @@
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>systemrestore 'System Restore'</c>
-		<c>tabletpc 'Tablet PC'</c>
 		<c>telnetclient 'Telnet Client'</c>
-		<c>textprediction 'Text prediction'</c>
 		<c>tftpclient 'TFTP client'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
-		<c>vpn 'Virtual Private Network (VPN) support'</c>
 		<c>wallet 'Wallet Service'</c>
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
-		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
 		<c>xbox 'Xbox - Core'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="false">
@@ -245,7 +225,6 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
-		<Feature name="NetFx4-AdvSrvs">false</Feature>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
@@ -270,28 +249,25 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw06~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw08~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~~~0.0.1.0">false</Feature>
-		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
 		<Feature name="Edge.Webview2.Platform~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Notepad.System~~~~0.0.1.0">false</Feature>
 		<Feature name="OpenSSH.Client~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athwnx~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Qcamain10x64~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft-RemoteDesktopConnection">false</Feature>
-		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
 		<Feature name="Windows.SimpleTCP.Content~~~~">false</Feature>
-		<Feature name="Windows.SmbDirect~~~~">false</Feature>
 		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-TCP-PortSharing45">false</Feature>
+		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
+		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
 		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
-		<Feature name="WCF-Services45">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
+		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
 		<Feature name="SearchEngine-Client-Package">false</Feature>
 		<Feature name="Windows.WinOcr~~~~">false</Feature>
+		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
 	<Packages>
 		<Options>
@@ -398,6 +374,8 @@
 	<Tweaks>
 		<Settings>
 			<TweakGroup name="AutoLogger">
+				<Tweak name="DefenderApiLogger\Start">0</Tweak>
+				<Tweak name="DefenderAuditLogger\Start">0</Tweak>
 				<Tweak name="ReadyBoot\Start">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="CrashControl">
@@ -406,6 +384,7 @@
 				<Tweak name="CrashControl\CrashDumpEnabled">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Explorer\NoPinningStoreToTaskbar">0</Tweak>
 				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
 				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
 				<Tweak name="NewStartPanel\{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}">1</Tweak>
@@ -416,7 +395,6 @@
 				<Tweak name="Start\HideRecentJumplists">1</Tweak>
 				<Tweak name="Advanced\Start_Layout">1</Tweak>
 				<Tweak name="Advanced\TaskbarMn">0</Tweak>
-				<Tweak name="Advanced\MMTaskbarEnabled">0</Tweak>
 				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="EventLogs">
@@ -433,9 +411,9 @@
 				<Tweak name="Microsoft-Windows-Hyper-V-Guest-Drivers\Admin\Enabled">0</Tweak>
 				<Tweak name="Channels\Microsoft-Windows-Hyper-V-Hypervisor-Admin\Enabled">0</Tweak>
 				<Tweak name="Channels\Microsoft-Windows-Hyper-V-Hypervisor-Operational\Enabled">0</Tweak>
-				<Tweak name="Channels\Microsoft-Windows-Hyper-V-VID-Admin\Enabled">0</Tweak>
-				<Tweak name="Microsoft-Windows-ReadyBoost\Operational\Enabled">0</Tweak>
-				<Tweak name="Microsoft-Windows-ReadyBoostDriver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-OOBE-Machine-DUI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-RemoteApp and Desktop Connections\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-RemoteApp and Desktop Connections\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteAssistance\Admin\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteAssistance\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\Admin\Enabled">0</Tweak>
@@ -444,19 +422,17 @@
 			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
-				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="Explorer\NoThumbnailCache">1</Tweak>
 				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
-				<Tweak name="cmd\HideBasedOnVelocityId">0</Tweak>
 				<Tweak name="Explorer\DisableThumbnails">1</Tweak>
 				<Tweak name="Explorer\DisableThumbnailsOnNetworkFolders">1</Tweak>
 				<Tweak name="Explorer\DisableEdgeDesktopShortcutCreation">1</Tweak>
 				<Tweak name="Explorer\NoRecentDocsHistory">1</Tweak>
-				<Tweak name="Advanced\NavPaneExpandToCurrentFolder">0</Tweak>
 				<Tweak name="{e88865ea-0e1c-4e20-9aa6-edcd0212c87c}\HiddenByDefault">1</Tweak>
 				<Tweak name="{f874310e-b6b7-47dc-bc84-b9e6b38f5903}\HiddenByDefault">1</Tweak>
 				<Tweak name="{031E4825-7B94-4dc3-B131-E946B44C8DD5}\System.IsPinnedToNameSpaceTree">0</Tweak>
 				<Tweak name="{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder\Attributes">-1332477852</Tweak>
+				<Tweak name="Advanced\NavPaneShowAllFolders">0</Tweak>
 				<Tweak name="Advanced\LaunchTo">1</Tweak>
 				<Tweak name="Explorer\HubMode">1</Tweak>
 				<Tweak name="Advanced\DontUsePowerShellOnWinX">1</Tweak>
@@ -465,9 +441,6 @@
 				<Tweak name="Advanced\HideDrivesWithNoMedia">0</Tweak>
 				<Tweak name="Advanced\HideFileExt">0</Tweak>
 				<Tweak name="Advanced\Hidden">1</Tweak>
-			</TweakGroup>
-			<TweakGroup name="Network">
-				<Tweak name="System\LocalAccountTokenFilterPolicy">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="PowerAndShutdown">
 				<Tweak name="Power\HiberbootEnabled">0</Tweak>
@@ -493,7 +466,6 @@
 				<Tweak name="features\PaidWifi">0</Tweak>
 				<Tweak name="features\WiFiSenseOpen">0</Tweak>
 				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
-				<Tweak name="System\AllowClipboardHistory">0</Tweak>
 				<Tweak name="CloudContent\DisableCloudOptimizedContent">1</Tweak>
 				<Tweak name="AppCompat\DisableInventory">1</Tweak>
 				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
@@ -527,7 +499,6 @@
 				<Tweak name="ContentDeliveryManager\SubscribedContent-338393Enabled">0</Tweak>
 				<Tweak name="Explorer\ShowRecent">0</Tweak>
 				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
-				<Tweak name="AppHost\EnableWebContentEvaluation">0</Tweak>
 				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
 				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
 				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
@@ -547,12 +518,10 @@
 				<Tweak name="Start\AllowPinnedFolderNetwork">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderPersonalFolder">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderPictures">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderSettings">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderVideos">0</Tweak>
 				<Tweak name="Start\HideHibernate">1</Tweak>
 				<Tweak name="Explorer\ShowOrHideMostUsedApps">0</Tweak>
 				<Tweak name="Advanced\Start_IrisRecommendations">0</Tweak>
-				<Tweak name="Start\HideSwitchAccount">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="System">
 				<Tweak name="Windows\DisableATMFD">1</Tweak>
@@ -568,8 +537,6 @@
 				<Tweak name="EMDMgmt\GroupPolicyDisallowCaches">1</Tweak>
 				<Tweak name="RDP-Tcp\UserAuthentication">0</Tweak>
 				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
-				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
-				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
 				<Tweak name="StickyKeys\Flags">506</Tweak>
 				<Tweak name="StoragePolicy\01">1</Tweak>
 				<Tweak name="StoragePolicy\512">0</Tweak>
@@ -601,13 +568,29 @@
 				<Tweak name="DeliveryOptimization\DODownloadMode">100</Tweak>
 				<Tweak name="Settings\IsContinuousInnovationOptedIn">1</Tweak>
 				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">1</Tweak>
+				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
 				<Tweak name="Settings\RestartNotificationsAllowed2">1</Tweak>
 				<Tweak name="ContentDeliveryManager\SubscribedContent-310093Enabled">0</Tweak>
 				<Tweak name="WindowsStore\AutoDownload">4</Tweak>
 				<Tweak name="AU\AUOptions">2</Tweak>
 			</TweakGroup>
 		</Settings>
-		<Services></Services>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="tzautoupdate\tzautoupdate">3</Tweak>
+				<Tweak name="CDPSvc\CDPSvc">3</Tweak>
+				<Tweak name="DiagTrack\DiagTrack">3</Tweak>
+				<Tweak name="MapsBroker\MapsBroker">3</Tweak>
+				<Tweak name="wlidsvc\wlidsvc">4</Tweak>
+				<Tweak name="OneSyncSvc\OneSyncSvc">3</Tweak>
+				<Tweak name="SysMain\SysMain">4</Tweak>
+				<Tweak name="lmhosts\lmhosts">4</Tweak>
+				<Tweak name="webthreatdefsvc\webthreatdefsvc">4</Tweak>
+				<Tweak name="webthreatdefusersvc\webthreatdefusersvc">4</Tweak>
+				<Tweak name="WinDefend\WinDefend">4</Tweak>
+				<Tweak name="WSearch\WSearch">4</Tweak>
+			</TweakGroup>
+		</Services>
 		<ExtraServices></ExtraServices>
 		<ScheduledTasks></ScheduledTasks>
 	</Tweaks>
@@ -615,10 +598,19 @@
 		<ImageTasks>
 			<Task>imageSaveRebuild</Task>
 			<Task>imageFormatEsd</Task>
-			<Task>tweaksettings_boot.wim_02_2_64</Task>
+			<Task>updates_winre.wim_01__64</Task>
+			<Task>updates_boot.wim_01_9_64</Task>
+			<Task>updates_boot.wim_02_2_64</Task>
+			<Task>features_winre.wim_01__64</Task>
+			<Task>components_winre.wim_01__64</Task>
+			<Task>msix_winre.wim_01__64</Task>
+			<Task>drivers_winre.wim_01__64</Task>
+			<Task>tweakservices_winre.wim_01__64</Task>
+			<Task>tweaksettings_winre.wim_01__64</Task>
+			<Task>registry_winre.wim_01__64</Task>
 			<Task>imageOptionsCreateIso</Task>
 		</ImageTasks>
-		<AutoIsoFile>C:\Huawei Assets\Windows11Huawei.iso</AutoIsoFile>
+		<AutoIsoFile>C:\Windows11Huawei.iso</AutoIsoFile>
 		<AutoIsoLabel>Windows11</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
@@ -705,13 +697,13 @@
 				<Index>1000</Index>
 			</Item>
 			<Item type="18">
-				<Path>C:\Huawei Assets\7- Install Optimizer\RegistryServicesTasks.bat</Path>
+				<Path>C:\Huawei Assets\9- PC Manager\PCManager_Setup_14.0.7.100(C233)_x64.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1001</Index>
 			</Item>
 			<Item type="18">
-				<Path>C:\Huawei Assets\9- PC Manager\PCManager_Setup_14.0.7.100(C233)_x64.exe</Path>
+				<Path>C:\Huawei Assets\7- Install Optimizer\InstallOptimizer.bat</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1002</Index>
@@ -719,97 +711,95 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>C:\Huawei Assets\5- Registry\reg\AllowGameDVR.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\AllowTelemetry.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\AllowTelemetryDC.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\AlternateErrorPagesEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Always_disable_Windows_Defender_PUA_protection_and_not_block_apps.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\AutoUpdateEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\BingSearchEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ConfigureDoNotTrack.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ContentDeliveryAllowed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\CrashDump.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\CreateDesktopShortcutDefault.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\CryptoWalletEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DODownloadMode.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DiagnosticData.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisableAIDataAnalysis.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisableRemovableDriveIndexing.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisableTailoredExperiencesWithDiagnosticData.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisableWindowsConsumerFeatures.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisableWpbtExecution.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disable_Hibernate.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disable_Microsoft_Defender_Antivirus.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disable_Microsoft_Defender_DisableAntiVirus.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disable_Windows_Error_Reporting_all_users.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disable_adding_locations_on_removable_drives_to_libraries_and_index.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disable_advanced_indexing_options.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Disabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisabledByGroupPolicy.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DisabledReporting.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\DoNotShowFeedbackNotifications.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\EdgeAssetDeliveryServiceEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\EdgeCollectionsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\EdgeShoppingAssistantEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\EnableActivityFeed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\EnableFeeds.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\EnthusiastMode.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\GameDVR_EFSEFeatureFlags.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\GameDVR_Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\GameDVR_FSEBehavior.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\GameDVR_HonorUserFSEBehaviorMode.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\GlobalUserDisabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\HibernateEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\HideFirstRunExperience.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\HideRecommendedSection.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\HideRecommendedSectionstart.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\HideSCAMeetNow.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\IRPStackSize.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\IsEducationEnvironment.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\LaunchTo.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\LongPathsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\MicrosoftEdgeInsiderPromotionEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\NetworkThrottlingIndex.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\None_for_no_memory_dump.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\NtfsDisableLastAccessUpdate.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\NumberOfSIUFInPeriod.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\NumberOfSIUFInPeriodR.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\OemPreInstalledAppsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\PeopleBand.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\PersonalizationReportingEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\PreInstalledAppsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\PreInstalledAppsEverEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\PreventUsingAdvancedIndexingOptions.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\PublishUserActivities.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\RPSessionInterval.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ScoobeSystemSettingEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SearchOrderConfig.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SensorPermissionState.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ShowHibernateOption.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ShowMicrosoftRewards.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ShowRecommendationsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SilentInstalledAppsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Start.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Status.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SubscribedContent338387Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SubscribedContent338388Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SubscribedContent338389Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SubscribedContent353698Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SystemPaneSuggestionsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\SystemResponsiveness.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\TamperProtection.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\TurnOffWindowsCopilot.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\TurnOffWindowsCopilotsoft.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Turn_OFF_Windows_Error_Reporting_all_users.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Turn_off_System_Protection_for_all_drives.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\UploadUserActivities.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\UserFeedbackAllowed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\User_Managed,_Last_Access_Updates_Disabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\Value.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ValueHot.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\ValueRep.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\WalletDonationEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\WebWidgetAllowed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\reg\fAllowToGetHelp.reg</File>
+		<File>C:\Huawei Assets\5- Registry\AllowGameDVR.reg</File>
+		<File>C:\Huawei Assets\5- Registry\AllowTelemetry.reg</File>
+		<File>C:\Huawei Assets\5- Registry\AllowTelemetryDC.reg</File>
+		<File>C:\Huawei Assets\5- Registry\AlternateErrorPagesEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\AutoUpdateEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\BingSearchEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ConfigureDoNotTrack.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ContentDeliveryAllowed.reg</File>
+		<File>C:\Huawei Assets\5- Registry\CrashDump.reg</File>
+		<File>C:\Huawei Assets\5- Registry\CreateDesktopShortcutDefault.reg</File>
+		<File>C:\Huawei Assets\5- Registry\CryptoWalletEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DODownloadMode.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DiagnosticData.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisableAIDataAnalysis.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisableDefender.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisableRemovableDriveIndexing.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisableTailoredExperiencesWithDiagnosticData.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisableWindowsConsumerFeatures.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisableWpbtExecution.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Disable_Hibernate.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Disable_Windows_Error_Reporting_all_users.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Disable_adding_locations_on_removable_drives_to_libraries_and_index.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Disable_advanced_indexing_options.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Disabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisabledByGroupPolicy.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DisabledReporting.reg</File>
+		<File>C:\Huawei Assets\5- Registry\DoNotShowFeedbackNotifications.reg</File>
+		<File>C:\Huawei Assets\5- Registry\EdgeAssetDeliveryServiceEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\EdgeCollectionsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\EdgeShoppingAssistantEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\EnableActivityFeed.reg</File>
+		<File>C:\Huawei Assets\5- Registry\EnableFeeds.reg</File>
+		<File>C:\Huawei Assets\5- Registry\EnthusiastMode.reg</File>
+		<File>C:\Huawei Assets\5- Registry\GameDVR_EFSEFeatureFlags.reg</File>
+		<File>C:\Huawei Assets\5- Registry\GameDVR_Enabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\GameDVR_FSEBehavior.reg</File>
+		<File>C:\Huawei Assets\5- Registry\GameDVR_HonorUserFSEBehaviorMode.reg</File>
+		<File>C:\Huawei Assets\5- Registry\GlobalUserDisabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\HibernateEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\HideFirstRunExperience.reg</File>
+		<File>C:\Huawei Assets\5- Registry\HideRecommendedSection.reg</File>
+		<File>C:\Huawei Assets\5- Registry\HideRecommendedSectionstart.reg</File>
+		<File>C:\Huawei Assets\5- Registry\HideSCAMeetNow.reg</File>
+		<File>C:\Huawei Assets\5- Registry\IRPStackSize.reg</File>
+		<File>C:\Huawei Assets\5- Registry\IsEducationEnvironment.reg</File>
+		<File>C:\Huawei Assets\5- Registry\LaunchTo.reg</File>
+		<File>C:\Huawei Assets\5- Registry\LongPathsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\MicrosoftEdgeInsiderPromotionEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\NetworkThrottlingIndex.reg</File>
+		<File>C:\Huawei Assets\5- Registry\None_for_no_memory_dump.reg</File>
+		<File>C:\Huawei Assets\5- Registry\NtfsDisableLastAccessUpdate.reg</File>
+		<File>C:\Huawei Assets\5- Registry\NumberOfSIUFInPeriod.reg</File>
+		<File>C:\Huawei Assets\5- Registry\NumberOfSIUFInPeriodR.reg</File>
+		<File>C:\Huawei Assets\5- Registry\OemPreInstalledAppsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\PeopleBand.reg</File>
+		<File>C:\Huawei Assets\5- Registry\PersonalizationReportingEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\PreInstalledAppsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\PreInstalledAppsEverEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\PreventUsingAdvancedIndexingOptions.reg</File>
+		<File>C:\Huawei Assets\5- Registry\PublishUserActivities.reg</File>
+		<File>C:\Huawei Assets\5- Registry\RPSessionInterval.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ScoobeSystemSettingEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SearchOrderConfig.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SensorPermissionState.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ShowHibernateOption.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ShowMicrosoftRewards.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ShowRecommendationsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SilentInstalledAppsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Start.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Status.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SubscribedContent338387Enabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SubscribedContent338388Enabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SubscribedContent338389Enabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SubscribedContent353698Enabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SystemPaneSuggestionsEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\SystemResponsiveness.reg</File>
+		<File>C:\Huawei Assets\5- Registry\TamperProtection.reg</File>
+		<File>C:\Huawei Assets\5- Registry\TurnOffWindowsCopilot.reg</File>
+		<File>C:\Huawei Assets\5- Registry\TurnOffWindowsCopilotsoft.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Turn_OFF_Windows_Error_Reporting_all_users.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Turn_off_System_Protection_for_all_drives.reg</File>
+		<File>C:\Huawei Assets\5- Registry\UploadUserActivities.reg</File>
+		<File>C:\Huawei Assets\5- Registry\UserFeedbackAllowed.reg</File>
+		<File>C:\Huawei Assets\5- Registry\User_Managed,_Last_Access_Updates_Disabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\Value.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ValueHot.reg</File>
+		<File>C:\Huawei Assets\5- Registry\ValueRep.reg</File>
+		<File>C:\Huawei Assets\5- Registry\WalletDonationEnabled.reg</File>
+		<File>C:\Huawei Assets\5- Registry\WebWidgetAllowed.reg</File>
+		<File>C:\Huawei Assets\5- Registry\fAllowToGetHelp.reg</File>
 	</Registry>
 </Preset>
