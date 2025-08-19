@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>06/18/2025 15:52:00</Date>
+	<Date>08/16/2025 23:18:41</Date>
 	<AppInfo>
-		<Version>2025.6.10476</Version>
+		<Version>2025.8.10552</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.5854 (en-US)</Host>
+		<Host>Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.6036 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4351 (en-US)</Version>
-		<GUID>{3B86C9D0-E9C6-925F-EC49-E3202BC11CDC}</GUID>
+		<Version mode="offline">Windows 11 Core 24H2 x64 - 10.0.26100.4946 (en-US)</Version>
+		<GUID>{AF83054C-0604-A5AC-0C2F-9731D2CA54D3}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="Custom">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
-		<c>appv 'Application Virtualization (App-V)'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
 		<c>apxunit 'APX speaker and microphone driver'</c>
 		<c>assembly.net '.NET assembly cache'</c>
-		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
 		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
 		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
-		<c>enhancedstorage 'Enhanced Storage'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
-		<c>fciclient 'File Server Resource Manager'</c>
-		<c>gamingperipherals 'Gaming Peripherals (Xbox GIP)'</c>
-		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>help 'Windows Help content'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
 		<c>ias 'Internet Authentication Service (IAS)'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
@@ -36,7 +33,6 @@
 		<c>langafrikaans 'Afrikaans'</c>
 		<c>langalbanian 'Albanian'</c>
 		<c>langamharic 'Amharic'</c>
-		<c>langarabic 'Arabic'</c>
 		<c>langarmenian 'Armenian'</c>
 		<c>langassamese 'Assamese'</c>
 		<c>langazerbaijani 'Azerbaijani'</c>
@@ -53,6 +49,7 @@
 		<c>langczech 'Czech'</c>
 		<c>langdanish 'Danish'</c>
 		<c>langdutch 'Dutch'</c>
+		<c>langenglishgb 'English (GB)'</c>
 		<c>langestonian 'Estonian'</c>
 		<c>langfilipino 'Filipino'</c>
 		<c>langfinnish 'Finnish'</c>
@@ -67,7 +64,6 @@
 		<c>langhindi 'Hindi'</c>
 		<c>langhungarian 'Hungarian'</c>
 		<c>langicelandic 'Icelandic'</c>
-		<c>langime 'Input Method Editor (IME)'</c>
 		<c>langimejp 'Japanese (IME)'</c>
 		<c>langimeko 'Korean (IME)'</c>
 		<c>langimetc 'Chinese Traditional (IME)'</c>
@@ -127,24 +123,23 @@
 		<c>microsoft.asynctextservice 'AsyncTextService'</c>
 		<c>microsoft.ecapp 'Eye Control'</c>
 		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
-		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
 		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
 		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
+		<c>microsoft.windows.oobenetworkcaptiveportal 'Captive Portal Flow'</c>
+		<c>microsoft.windows.oobenetworkconnectionflow 'Network Connection Flow'</c>
 		<c>microsoft.windows.parentalcontrols 'Microsoft Family Safety'</c>
 		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
-		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
 		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
 		<c>microsoftwindows.client.coreai 'Windows Feature Experience Pack - CoreAI'</c>
 		<c>microsoftwindows.client.oobe 'Windows Feature Experience Pack - OOBE'</c>
-		<c>mobilepc</c>
-		<c>mobilepc_location 'Location notifications'</c>
-		<c>mobilepc_networkprojection 'Network Projection'</c>
-		<c>mobilepc_sensors 'Sensors'</c>
+		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
 		<c>multipointconnector 'MultiPoint Connector'</c>
 		<c>otherthemes 'Windows Personalization themes'</c>
+		<c>photoviewer 'Photo Viewer'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
 		<c>rdc 'Remote Differential Compression (RDC)'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>rdpserver 'Remote Desktop Server'</c>
 		<c>remoteaccessservice 'Routing and Remote Access Service'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
 		<c>remoteassistance 'Remote Assistance'</c>
@@ -154,9 +149,8 @@
 		<c>sharemediacpl 'Share Media Control Panel'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
-		<c>supportdir 'Support directory'</c>
 		<c>systemrestore 'System Restore'</c>
-		<c>telnetclient 'Telnet Client'</c>
+		<c>tabletpc 'Tablet PC'</c>
 		<c>tftpclient 'TFTP client'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
 		<c>wallet 'Wallet Service'</c>
@@ -164,7 +158,6 @@
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windowstogo 'Windows To Go'</c>
-		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
 		<c>xbox 'Xbox - Core'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="false">
@@ -177,7 +170,7 @@
 			<Feature enabled="no">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="no">Docker</Feature>
-			<Feature enabled="yes">EA Anti-Cheat</Feature>
+			<Feature enabled="yes">EAC</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="no">iCloud</Feature>
@@ -209,7 +202,6 @@
 			<Feature enabled="no">VPN</Feature>
 			<Feature enabled="yes">VisualStudio</Feature>
 			<Feature enabled="no">VSS</Feature>
-			<Feature enabled="yes">ActivationKMS</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="yes">WinSetup</Feature>
 			<Feature enabled="yes">WindowsStore</Feature>
@@ -226,47 +218,25 @@
 	</Compatibility>
 	<Features>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
 		<Feature name="Language.Handwriting~~~en-us~0.0.1.0">false</Feature>
-		<Feature name="Language.OCR~~~en-us~0.0.1.0">false</Feature>
 		<Feature name="Language.Speech~~~en-us~0.0.1.0">false</Feature>
 		<Feature name="Language.TextToSpeech~~~en-us~0.0.1.0">false</Feature>
 		<Feature name="OneCoreUAP.OneSync~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Wallpapers.Extended~~~~0.0.1.0">false</Feature>
 		<Feature name="Hello.Face.20134~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Ethernet.Client.Intel.E1i68x64~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Ethernet.Client.Intel.E2f68~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwbw02~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwew00~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwew01~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwlv64~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwns64~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwsw00~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw02~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw04~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw06~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw08~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
 		<Feature name="Edge.Webview2.Platform~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Notepad.System~~~~0.0.1.0">false</Feature>
 		<Feature name="OpenSSH.Client~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft-RemoteDesktopConnection">false</Feature>
-		<Feature name="Windows.SimpleTCP.Content~~~~">false</Feature>
+		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
 		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-TCP-PortSharing45">false</Feature>
-		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
 		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
-		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
-		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
 		<Feature name="SearchEngine-Client-Package">false</Feature>
-		<Feature name="Windows.WinOcr~~~~">false</Feature>
 		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
 	<Packages>
@@ -275,10 +245,6 @@
 			<OptimizeAppX>false</OptimizeAppX>
 			<UpdateBootManager>false</UpdateBootManager>
 		</Options>
-		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5056579-x64-ndp481_a062e62bdedd9a2a4b0cbf4e26ff1652a240f1ee.msu</File>
-		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
-		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64.appx</File>
-		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle</File>
 	</Packages>
 	<Commands>
 		<PostUpdates>
@@ -374,9 +340,26 @@
 	<Tweaks>
 		<Settings>
 			<TweakGroup name="AutoLogger">
+				<Tweak name="CimFSUnionFS-Filter\Start">0</Tweak>
+				<Tweak name="Circular Kernel Context Logger\Start">0</Tweak>
+				<Tweak name="CloudExperienceHostOobe\Start">0</Tweak>
 				<Tweak name="DefenderApiLogger\Start">0</Tweak>
 				<Tweak name="DefenderAuditLogger\Start">0</Tweak>
+				<Tweak name="DiagLog\Start">0</Tweak>
+				<Tweak name="Diagtrack-Listener\Start">0</Tweak>
+				<Tweak name="FilterMgr-Logger\Start">0</Tweak>
+				<Tweak name="LwtNetLog\Start">0</Tweak>
+				<Tweak name="Microsoft-Windows-Rdp-Graphics-RdpIdd-Trace\Start">0</Tweak>
+				<Tweak name="Microsoft-Windows-Setup\Start">0</Tweak>
+				<Tweak name="NetCore\Start">0</Tweak>
+				<Tweak name="NtfsLog\Start">0</Tweak>
+				<Tweak name="RadioMgr\Start">0</Tweak>
 				<Tweak name="ReadyBoot\Start">0</Tweak>
+				<Tweak name="ReFSLog\Start">0</Tweak>
+				<Tweak name="SpoolerLogger\Start">0</Tweak>
+				<Tweak name="UBPM\Start">0</Tweak>
+				<Tweak name="WdiContextLog\Start">0</Tweak>
+				<Tweak name="WiFiSession\Start">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="CrashControl">
 				<Tweak name="CrashControl\EnableLogFile">0</Tweak>
@@ -384,7 +367,6 @@
 				<Tweak name="CrashControl\CrashDumpEnabled">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
-				<Tweak name="Explorer\NoPinningStoreToTaskbar">0</Tweak>
 				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
 				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
 				<Tweak name="NewStartPanel\{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}">1</Tweak>
@@ -392,26 +374,216 @@
 				<Tweak name="NewStartPanel\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}">1</Tweak>
 				<Tweak name="NewStartPanel\{645FF040-5081-101B-9F08-00AA002F954E}">1</Tweak>
 				<Tweak name="NewStartPanel\{59031a47-3f72-44a7-89c5-5595fe6b30ee}">1</Tweak>
-				<Tweak name="Start\HideRecentJumplists">1</Tweak>
 				<Tweak name="Advanced\Start_Layout">1</Tweak>
 				<Tweak name="Advanced\TaskbarMn">0</Tweak>
 				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="EventLogs">
-				<Tweak name="Microsoft-AppV-Client\Admin\Enabled">0</Tweak>
-				<Tweak name="Microsoft-AppV-Client\Operational\Enabled">0</Tweak>
-				<Tweak name="Microsoft-AppV-Client\Virtual Applications\Enabled">0</Tweak>
-				<Tweak name="Microsoft-User Experience Virtualization-Agent Driver\Operational\Enabled">0</Tweak>
-				<Tweak name="Microsoft-User Experience Virtualization-App Agent\Operational\Enabled">0</Tweak>
-				<Tweak name="Microsoft-User Experience Virtualization-IPC\Operational\Enabled">0</Tweak>
-				<Tweak name="Microsoft-User Experience Virtualization-SQM Uploader\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Client-Licensing-Platform\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-System-Diagnostics-DiagnosticInvoker\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AAD\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AccelLib-AccelCx\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-All-User-Install-Agent\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppHost\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppID\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ApplicabilityEngine\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application Server-Applications\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application Server-Applications\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application-Experience\Program-Compatibility-Assistant\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application-Experience\Program-Compatibility-Troubleshooter\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application-Experience\Program-Inventory\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application-Experience\Program-Telemetry\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Application-Experience\Steps-Recorder\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-ApphelpCache\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppLocker\EXE and DLL\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppLocker\MSI and Script\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppLocker\Packaged app-Deployment\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppLocker\Packaged app-Execution\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppModel-Runtime\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppReadiness\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppReadiness\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppXDeploymentServer\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppXDeploymentServer\Restricted\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppXDeployment\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-AppxPackaging\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Audio\CaptureMonitor\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Audio\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Audio\PlaybackManager\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-Backup\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Biometrics\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-BitLocker\BitLocker Management\Enabled">0</Tweak>
-				<Tweak name="Microsoft-Windows-BitLocker-DrivePreparationTool\Admin\Enabled">0</Tweak>
-				<Tweak name="Microsoft-Windows-BitLocker-DrivePreparationTool\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Bits-Client\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Bluetooth-BthLEPrepairing\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Bluetooth-MTPEnum\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-BackgroundTaskInfrastructure\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Regsvr32\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CertificateServicesClient-Lifecycle-System\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CertificateServicesClient-Lifecycle-User\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Cleanmgr\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CloudFiles-Filter\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CloudRestoreLauncher\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CloudStore\Initialization\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CloudStore\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CodeIntegrity\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Compat-Appraiser\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Containers-BindFlt\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Containers-Wcifs\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CoreSystem-SmsRouter-Events\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CorruptedFileRecovery-Client\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CorruptedFileRecovery-Server\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Crashdump\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Crypto-DPAPI\BackUpKeySvc\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Crypto-DPAPI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Crypto-NCrypt\CertInUse\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Crypto-NCrypt\KeyMgmt\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Crypto-NCrypt\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DAL-Provider\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DataIntegrityScan\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DataIntegrityScan\CrashRecovery\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DateTimeControlPanel\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceGuard\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Autopilot\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Enrollment\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Sync\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Devices-Background\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceSetupManager\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceSetupManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceSync\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceUpdateAgent\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Dhcp-Client\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Dhcpv6-Client\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-DPS\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-PCW\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-PLA\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-Scheduled\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-Scripted\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-Scripted\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnostics-Networking\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Diagnostics-Performance\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DiskDiagnostic\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DiskDiagnosticDataCollector\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DiskDiagnosticResolver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DriverProxy\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DSC\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DSC\Operational\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-DxgKrnl-Admin\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-DxgKrnl-Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EapHost\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EapMethods-RasChap\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EapMethods-RasTls\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EapMethods-Sim\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EapMethods-Ttls\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EDP-Application-Learning\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EDP-Audit-Regular\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EDP-Audit-TCB\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EFS\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EnhancedStorage-EhStorClass\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Policy\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-EventCollector\Operational\Enabled">0</Tweak>
+				<Tweak name="Channels\Setup\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-FailoverClustering-Client\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Fault-Tolerant-Heap\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-FeatureConfiguration\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-FileHistory-Core\WHC\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-FileHistory-Engine\BackupLog\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-FMS\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Folder Redirection\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Forwarding\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-GenericRoaming\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-GroupPolicy\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-HelloForBusiness\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Help\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-hidcfu\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-HomeGroup Control Panel\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-HotspotAuth\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-Hyper-V-Guest-Drivers\Admin\Enabled">0</Tweak>
 				<Tweak name="Channels\Microsoft-Windows-Hyper-V-Hypervisor-Admin\Enabled">0</Tweak>
 				<Tweak name="Channels\Microsoft-Windows-Hyper-V-Hypervisor-Operational\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-Hyper-V-VID-Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-IdCtrls\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CoreApplication\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TWinUI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-International-RegionalOptionsControlPanel\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Iphlpsvc\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-IPxlatCfg\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-KdsSvc\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-Boot\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-Cache\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-CPU-Starvation\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-Dump\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-EventTracing\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-IO\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-LiveDump\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-PnP\Configuration\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-PnP\Device Management\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-PnP\Driver Watchdog\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-Power\Thermal-Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-PRM\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-ShimEngine\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-StoreMgr\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-WDI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-WHEA\Errors\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Kernel-WHEA\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-KernelStreaming\Operational\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-Known Folders API Service\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-LanguagePackSetup\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-LAPS\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-LiveId\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MemoryDiagnostics-Results\Debug\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MF-FrameServer\Camera_DeviceMFT\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MF-FrameServer\Camera_FrameServer\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MF-MediaFoundation\MF_DeviceProxy\Enabled">0</Tweak>
+				<Tweak name="Channels\SMSApi\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ModernDeployment-Diagnostics-Provider\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ModernDeployment-Diagnostics-Provider\Autopilot\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ModernDeployment-Diagnostics-Provider\Diagnostics\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ModernDeployment-Diagnostics-Provider\ManagementService\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Mprddm\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MPTF\MPTF-Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MUI\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-MUI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NcdAutoSetup\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NCSI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NdisImPlatform\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NetworkProfile\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NetworkProvider\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NetworkProvisioning\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NlaSvc\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Ntfs\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Ntfs\WHC\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-NTLM\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Storage-NvmeDisk\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-OneBackup\Debug\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-OOBE-Machine-DUI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ParentalControls\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Partition\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PCI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PCRPF\PCRPF\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PerceptionRuntime\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PerceptionSensorDataService\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Perflib\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PersistentMemory-Nvdimm\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PersistentMemory-PmemDisk\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PersistentMemory-ScmBus\Certification\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PersistentMemory-ScmBus\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PowerShell\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PowerShell\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PrintService\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Privacy-Auditing\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Program-Compatibility-Assistant\CompatAfterUpgrade\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Provisioning-Diagnostics-Provider\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Provisioning-Diagnostics-Provider\AutoPilot\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Provisioning-Diagnostics-Provider\ManagementService\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PushNotification-Platform\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-PushNotification-Platform\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ReadyBoost\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ReadyBoostDriver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ReFS\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ReFsDedupSvc\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteApp and Desktop Connections\Admin\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteApp and Desktop Connections\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteAssistance\Admin\Enabled">0</Tweak>
@@ -419,9 +591,150 @@
 				<Tweak name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\Admin\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteDesktopServices-SessionServices\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Resource-Exhaustion-Detector\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Resource-Exhaustion-Resolver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-RestartManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-RetailDemo\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-RetailDemo\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-Audit-Configuration-Client\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-EnterpriseData-FileRevocationManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-Isolation-BrokeringFileSystem\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-LessPrivilegedAppContainer\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-Mitigations\KernelMode\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-Mitigations\UserMode\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-Netlogon\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-SPP-UX-Notifications\ActionCenter\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Security-UserConsentVerifier\Audit\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SecurityMitigationsBroker\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Authentication User Interface\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Shell-ConnectedAccountState\ActionCenter\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Shell-Core\ActionCenter\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Shell-Core\AppDefaults\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Shell-Core\LogonTasksChannel\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Shell-Core\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ShellCommon-StartLayoutPopulation\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmartCard-Audit\Authentication\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmartCard-DeviceEnum\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmartCard-TPM-VCard-Module\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmartCard-TPM-VCard-Module\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmbClient\Audit\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmbClient\Connectivity\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBClient\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SmbClient\Security\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBServer\Audit\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBServer\Connectivity\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBServer\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBServer\Security\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBWitnessClient\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SMBWitnessClient\Informational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StateRepository\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StateRepository\Restricted\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Storage-Tiering\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageManagement-PartUtil\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageManagement\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSettings\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Api\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Driver\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Driver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-ManagementAgent\WHC\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Parser\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Parser\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-SpaceManager\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-SpaceManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageVolume\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageVolume\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Storage-ClassPnP\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Store\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Storage-Storport\Health\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Storage-Storport\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Storsvc\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Sudo\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SystemSettingsThreshold\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TaskScheduler\Maintenance\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-RDPClient\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-ClientUSBDevices\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-ClientUSBDevices\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-LocalSessionManager\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-LocalSessionManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-PnPDevices\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-PnPDevices\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-Printers\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-Printers\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-RemoteConnectionManager\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TerminalServices-RemoteConnectionManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Time-Service-PTP-Provider\PTP-Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Time-Service\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Troubleshooting-Recommended\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Troubleshooting-Recommended\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TZSync\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-TZUtil\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UAC-FileVirtualization\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UAC\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-SearchUI\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UniversalTelemetryClient\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-USB-UCMUCSICX\Operational\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-USB-USBXHCI-Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-User Device Registration\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-User Profile Service\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-User Control Panel\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-User-Loader\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UserPnp\ActionCenter\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UserPnp\DeviceInstall\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UserSettingsBackup-EarlyDownloader\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-UserSettingsBackup-Orchestrator\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-VDRVROOT\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-VerifyHardwareSecurity\Admin\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-Windows-VHDMP-Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-VolumeSnapshot-Driver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-VPN-Client\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Wcmsvc\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WebAuthN\Operational\Enabled">0</Tweak>
+				<Tweak name="Plugin-Passkey-Providers\Operational\Enabled">0</Tweak>
+				<Tweak name="Synced-Passkey-Provider\Operatonal\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WebIO\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WER-Diag\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WER-PayloadHealth\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WerKernel\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-IKE\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-VPN\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WFP\Operational\Enabled">0</Tweak>
+				<Tweak name="Channels\Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Win32k\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Defender\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Defender\WHC\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Firewall With Advanced Security\ConnectionSecurity\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Firewall With Advanced Security\Firewall\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Firewall With Advanced Security\FirewallDiagnostics\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WindowsBackup\ActionCenter\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WindowsSystemAssessmentTool\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WindowsUpdateClient\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WinHttp\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WinINet\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WinINet-Config\ProxyConfigChanged\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Winlogon\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WinRM\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Winsock-WS2HELP\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Wired-AutoConfig\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WLAN-AutoConfig\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WMI-Activity\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WMPNSS-Service\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WorkFolders\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WorkFolders\WHC\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Workplace Join\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WPD-CompositeClassDriver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WPD-MTPClassDriver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WPD-ClassInstaller\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-WWAN-SVC-Events\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ZTDNS\BlockedConnections\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ZTDNS\Operational\Enabled">0</Tweak>
+				<Tweak name="OpenSSH\Admin\Enabled">0</Tweak>
+				<Tweak name="OpenSSH\Operational\Enabled">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="Explorer\NoThumbnailCache">1</Tweak>
 				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
 				<Tweak name="Explorer\DisableThumbnails">1</Tweak>
@@ -438,26 +751,17 @@
 				<Tweak name="Advanced\DontUsePowerShellOnWinX">1</Tweak>
 				<Tweak name="Explorer\ShowCloudFilesInQuickAccess">0</Tweak>
 				<Tweak name="Advanced\ShowSyncProviderNotifications">0</Tweak>
+				<Tweak name="Advanced\SharingWizardOn">0</Tweak>
 				<Tweak name="Advanced\HideDrivesWithNoMedia">0</Tweak>
 				<Tweak name="Advanced\HideFileExt">0</Tweak>
 				<Tweak name="Advanced\Hidden">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="PowerAndShutdown">
 				<Tweak name="Power\HiberbootEnabled">0</Tweak>
+				<Tweak name="Power\HibernateEnabledDefault">0</Tweak>
 				<Tweak name="FlyoutMenuSettings\ShowHibernateOption">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Privacy">
-				<Tweak name="appointments\Value">Deny</Tweak>
-				<Tweak name="phoneCallHistory\Value">Deny</Tweak>
-				<Tweak name="contacts\Value">Deny</Tweak>
-				<Tweak name="appDiagnostics\Value">Deny</Tweak>
-				<Tweak name="broadFileSystemAccess\Value">Deny</Tweak>
-				<Tweak name="chat\Value">Deny</Tweak>
-				<Tweak name="phoneCall\Value">Deny</Tweak>
-				<Tweak name="radios\Value">Deny</Tweak>
-				<Tweak name="LooselyCoupled\Value">Deny</Tweak>
-				<Tweak name="userDataTasks\Value">Deny</Tweak>
-				<Tweak name="userAccountInformation\Value">Deny</Tweak>
 				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
 				<Tweak name="System\AllowExperimentation">0</Tweak>
 				<Tweak name="System\AllowLocation">0</Tweak>
@@ -466,6 +770,7 @@
 				<Tweak name="features\PaidWifi">0</Tweak>
 				<Tweak name="features\WiFiSenseOpen">0</Tweak>
 				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="System\AllowClipboardHistory">0</Tweak>
 				<Tweak name="CloudContent\DisableCloudOptimizedContent">1</Tweak>
 				<Tweak name="AppCompat\DisableInventory">1</Tweak>
 				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
@@ -488,17 +793,19 @@
 				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
 				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
 				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="AppCompat\DisablePCA">1</Tweak>
 				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
 				<Tweak name="Search\BingSearchEnabled">0</Tweak>
 				<Tweak name="SearchSettings\IsDeviceSearchHistoryEnabled">0</Tweak>
 				<Tweak name="TIPC\Enabled">0</Tweak>
 				<Tweak name="System\EnableCdp">0</Tweak>
-				<Tweak name="Shell\BagMRU Size">1</Tweak>
 				<Tweak name="Explorer\ShowFrequent">0</Tweak>
 				<Tweak name="AccountNotifications\EnableAccountNotifications">0</Tweak>
 				<Tweak name="ContentDeliveryManager\SubscribedContent-338393Enabled">0</Tweak>
 				<Tweak name="Explorer\ShowRecent">0</Tweak>
 				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
+				<Tweak name="AppHost\EnableWebContentEvaluation">0</Tweak>
+				<Tweak name="Settings\InsightsEnabled">0</Tweak>
 				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
 				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
 				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
@@ -508,18 +815,7 @@
 				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="StartTweaks">
-				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
 				<Tweak name="Explorer\HideRecentlyAddedApps">1</Tweak>
-				<Tweak name="Start\AllowPinnedFolderDocuments">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderDownloads">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderFileExplorer">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderHomeGroup">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderMusic">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderNetwork">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderPersonalFolder">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderPictures">0</Tweak>
-				<Tweak name="Start\AllowPinnedFolderVideos">0</Tweak>
-				<Tweak name="Start\HideHibernate">1</Tweak>
 				<Tweak name="Explorer\ShowOrHideMostUsedApps">0</Tweak>
 				<Tweak name="Advanced\Start_IrisRecommendations">0</Tweak>
 			</TweakGroup>
@@ -534,16 +830,18 @@
 				<Tweak name="System\EnableLinkedConnections">0</Tweak>
 				<Tweak name="OOBE\BypassNRO">1</Tweak>
 				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
+				<Tweak name="3\1806">0</Tweak>
 				<Tweak name="EMDMgmt\GroupPolicyDisallowCaches">1</Tweak>
 				<Tweak name="RDP-Tcp\UserAuthentication">0</Tweak>
 				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
+				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
+				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
 				<Tweak name="StickyKeys\Flags">506</Tweak>
 				<Tweak name="StoragePolicy\01">1</Tweak>
 				<Tweak name="StoragePolicy\512">0</Tweak>
 				<Tweak name="StoragePolicy\256">1</Tweak>
 				<Tweak name="StoragePolicy\04">1</Tweak>
 				<Tweak name="StoragePolicy\2048">1</Tweak>
-				<Tweak name="UserGpuPreferences\DirectXUserGlobalSettings">VRROptimizeEnable=0</Tweak>
 				<Tweak name="WinRE\UninstallWindowsRE">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdateTasks">
@@ -566,52 +864,72 @@
 			<TweakGroup name="WindowsUpdate">
 				<Tweak name="DriverSearching\SearchOrderConfig">1</Tweak>
 				<Tweak name="DeliveryOptimization\DODownloadMode">100</Tweak>
-				<Tweak name="Settings\IsContinuousInnovationOptedIn">1</Tweak>
 				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">1</Tweak>
 				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
 				<Tweak name="Settings\RestartNotificationsAllowed2">1</Tweak>
 				<Tweak name="ContentDeliveryManager\SubscribedContent-310093Enabled">0</Tweak>
-				<Tweak name="WindowsStore\AutoDownload">4</Tweak>
 				<Tweak name="AU\AUOptions">2</Tweak>
 			</TweakGroup>
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
-				<Tweak name="tzautoupdate\tzautoupdate">3</Tweak>
+				<Tweak name="cbdhsvc\cbdhsvc">3</Tweak>
 				<Tweak name="CDPSvc\CDPSvc">3</Tweak>
 				<Tweak name="DiagTrack\DiagTrack">3</Tweak>
+				<Tweak name="DusmSvc\DusmSvc">3</Tweak>
+				<Tweak name="DPS\DPS">3</Tweak>
 				<Tweak name="MapsBroker\MapsBroker">3</Tweak>
-				<Tweak name="wlidsvc\wlidsvc">4</Tweak>
-				<Tweak name="OneSyncSvc\OneSyncSvc">3</Tweak>
+				<Tweak name="InventorySvc\InventorySvc">3</Tweak>
+				<Tweak name="NetSetupSvc\NetSetupSvc">3</Tweak>
+				<Tweak name="Spooler\Spooler">3</Tweak>
+				<Tweak name="wscsvc\wscsvc">3</Tweak>
+				<Tweak name="ShellHWDetection\ShellHWDetection">3</Tweak>
+				<Tweak name="StorSvc\StorSvc">3</Tweak>
+				<Tweak name="OneSyncSvc\OneSyncSvc">4</Tweak>
 				<Tweak name="SysMain\SysMain">4</Tweak>
-				<Tweak name="lmhosts\lmhosts">4</Tweak>
+				<Tweak name="Themes\Themes">3</Tweak>
+				<Tweak name="UsoSvc\UsoSvc">3</Tweak>
 				<Tweak name="webthreatdefsvc\webthreatdefsvc">4</Tweak>
 				<Tweak name="webthreatdefusersvc\webthreatdefusersvc">4</Tweak>
 				<Tweak name="WinDefend\WinDefend">4</Tweak>
+				<Tweak name="WerSvc\WerSvc">4</Tweak>
+				<Tweak name="FontCache\FontCache">3</Tweak>
+				<Tweak name="whesvc\whesvc">3</Tweak>
+				<Tweak name="WpnService\WpnService">3</Tweak>
 				<Tweak name="WSearch\WSearch">4</Tweak>
+				<Tweak name="SecurityHealthService\SecurityHealthService">4</Tweak>
+				<Tweak name="XboxGipSvc\XboxGipSvc">4</Tweak>
 			</TweakGroup>
 		</Services>
-		<ExtraServices></ExtraServices>
+		<ExtraServices>
+			<TweakGroup name="drivers">
+				<Tweak name="AppleSSD\AppleSSD">3</Tweak>
+				<Tweak name="iaStorAVC\iaStorAVC">3</Tweak>
+				<Tweak name="iaStorV\iaStorV">3</Tweak>
+				<Tweak name="IntelPMT\IntelPMT">3</Tweak>
+				<Tweak name="intelpep\intelpep">3</Tweak>
+				<Tweak name="storflt\storflt">3</Tweak>
+				<Tweak name="bttflt\bttflt">3</Tweak>
+				<Tweak name="vpci\vpci">3</Tweak>
+			</TweakGroup>
+		</ExtraServices>
 		<ScheduledTasks></ScheduledTasks>
 	</Tweaks>
 	<ApplyOptions>
 		<ImageTasks>
-			<Task>imageSaveRebuild</Task>
+			<Task>imageSaveTrim</Task>
 			<Task>imageFormatEsd</Task>
-			<Task>updates_winre.wim_01__64</Task>
-			<Task>updates_boot.wim_01_9_64</Task>
-			<Task>updates_boot.wim_02_2_64</Task>
 			<Task>features_winre.wim_01__64</Task>
 			<Task>components_winre.wim_01__64</Task>
-			<Task>msix_winre.wim_01__64</Task>
-			<Task>drivers_winre.wim_01__64</Task>
 			<Task>tweakservices_winre.wim_01__64</Task>
+			<Task>tweakextraservices_winre.wim_01__64</Task>
 			<Task>tweaksettings_winre.wim_01__64</Task>
+			<Task exclusiveOnly="true">tweaksettings_boot.wim_02_2_64</Task>
 			<Task>registry_winre.wim_01__64</Task>
 			<Task>imageOptionsCreateIso</Task>
 		</ImageTasks>
-		<AutoIsoFile>C:\Windows11Huawei.iso</AutoIsoFile>
-		<AutoIsoLabel>Windows11</AutoIsoLabel>
+		<AutoIsoFile>C:\Huawei Assets\Windows11Huawei.iso</AutoIsoFile>
+		<AutoIsoLabel>Windows 11</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
 	<Execution BeforeLogonMode="0">
@@ -619,91 +937,91 @@
 		<Change></Change>
 		<Add>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\1_AMDGPIO_2.2.0.116\AMDGPIO_2.2.0.116.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\1_AMDGPIO_2.2.0.116\AMDGPIO_2.2.0.116.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>0</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\2_AMDPSP_4.11.0.0\AMDPSP_4.11.0.0.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\2_AMDPSP_4.11.0.0\AMDPSP_4.11.0.0.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\3_AMDSMBus_5.12.0.38\AMDSMBus_5.12.0.38.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\3_AMDSMBus_5.12.0.38\AMDSMBus_5.12.0.38.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>2</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\4_FingerPrint_1.1.124.115\BohrK_FingerPrint_1.1.124.115.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\4_FingerPrint_1.1.124.115\BohrK_FingerPrint_1.1.124.115.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>3</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\5_AMDGraphics_26.20.11030.22001\BohrK_AMDGraphics_26.20.11030.22001_VB2.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\5_AMDGraphics_26.20.11030.22001\BohrK_AMDGraphics_26.20.11030.22001_VB2.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>4</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\6_Monitor_23.8.16.1\BohrK_Monitor_23.8.16.1.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\6_Monitor_23.8.16.1\BohrK_Monitor_23.8.16.1.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>5</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\7_G-Sensor_2.2.7.0\BohrK_G-Sensor_2.2.7.0.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\7_G-Sensor_2.2.7.0\BohrK_G-Sensor_2.2.7.0.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>6</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\8_OSD_13.0.6.400\HwOsdSetup_13.0.6.400.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\8_OSD_13.0.6.400\HwOsdSetup_13.0.6.400.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>7</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\9_Audio_6.0.9155.1\X13_BohrKNobelK_Audio_6.0.9155.1.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\9_Audio_6.0.9155.1\X13_BohrKNobelK_Audio_6.0.9155.1.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>8</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\10_ACPBus_1.17.0.91\ACPBus_1.17.0.91.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\10_ACPBus_1.17.0.91\ACPBus_1.17.0.91.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>9</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\6- Silent Driver Installers\11_RealtekWiFi_2024.0.9.230\BohrK_RealtekWLAN_2024.0.9.230.exe</Path>
+				<Path>C:\Huawei Assets\5- Silent Driver Installers\11_RealtekWiFi_2024.0.9.230\BohrK_RealtekWLAN_2024.0.9.230.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>10</Index>
 			</Item>
 			<Item type="17">
-				<Path>C:\Huawei Assets\7- Install Optimizer\InstallOptimizerOOBE.bat</Path>
+				<Path>C:\Huawei Assets\6- Windows Optimizer\Windows Optimizer (for NTLite OOBE).bat</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>11</Index>
 			</Item>
 			<Item type="18">
-				<Path>C:\Huawei Assets\8- OOSU10\OOSU10.exe</Path>
+				<Path>C:\Huawei Assets\7- OOSU10\OOSU10.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1000</Index>
 			</Item>
 			<Item type="18">
-				<Path>C:\Huawei Assets\9- PC Manager\PCManager_Setup_14.0.7.100(C233)_x64.exe</Path>
+				<Path>C:\Huawei Assets\8- PC Manager\PCManager_Setup_14.0.7.150(C233)_x64.exe</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1001</Index>
 			</Item>
 			<Item type="18">
-				<Path>C:\Huawei Assets\7- Install Optimizer\InstallOptimizer.bat</Path>
+				<Path>C:\Huawei Assets\6- Windows Optimizer\Windows Optimizer (for after using OOShutUp).bat</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1002</Index>
@@ -711,95 +1029,6 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>C:\Huawei Assets\5- Registry\AllowGameDVR.reg</File>
-		<File>C:\Huawei Assets\5- Registry\AllowTelemetry.reg</File>
-		<File>C:\Huawei Assets\5- Registry\AllowTelemetryDC.reg</File>
-		<File>C:\Huawei Assets\5- Registry\AlternateErrorPagesEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\AutoUpdateEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\BingSearchEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ConfigureDoNotTrack.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ContentDeliveryAllowed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\CrashDump.reg</File>
-		<File>C:\Huawei Assets\5- Registry\CreateDesktopShortcutDefault.reg</File>
-		<File>C:\Huawei Assets\5- Registry\CryptoWalletEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DODownloadMode.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DiagnosticData.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisableAIDataAnalysis.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisableDefender.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisableRemovableDriveIndexing.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisableTailoredExperiencesWithDiagnosticData.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisableWindowsConsumerFeatures.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisableWpbtExecution.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Disable_Hibernate.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Disable_Windows_Error_Reporting_all_users.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Disable_adding_locations_on_removable_drives_to_libraries_and_index.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Disable_advanced_indexing_options.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Disabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisabledByGroupPolicy.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DisabledReporting.reg</File>
-		<File>C:\Huawei Assets\5- Registry\DoNotShowFeedbackNotifications.reg</File>
-		<File>C:\Huawei Assets\5- Registry\EdgeAssetDeliveryServiceEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\EdgeCollectionsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\EdgeShoppingAssistantEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\EnableActivityFeed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\EnableFeeds.reg</File>
-		<File>C:\Huawei Assets\5- Registry\EnthusiastMode.reg</File>
-		<File>C:\Huawei Assets\5- Registry\GameDVR_EFSEFeatureFlags.reg</File>
-		<File>C:\Huawei Assets\5- Registry\GameDVR_Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\GameDVR_FSEBehavior.reg</File>
-		<File>C:\Huawei Assets\5- Registry\GameDVR_HonorUserFSEBehaviorMode.reg</File>
-		<File>C:\Huawei Assets\5- Registry\GlobalUserDisabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\HibernateEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\HideFirstRunExperience.reg</File>
-		<File>C:\Huawei Assets\5- Registry\HideRecommendedSection.reg</File>
-		<File>C:\Huawei Assets\5- Registry\HideRecommendedSectionstart.reg</File>
-		<File>C:\Huawei Assets\5- Registry\HideSCAMeetNow.reg</File>
-		<File>C:\Huawei Assets\5- Registry\IRPStackSize.reg</File>
-		<File>C:\Huawei Assets\5- Registry\IsEducationEnvironment.reg</File>
-		<File>C:\Huawei Assets\5- Registry\LaunchTo.reg</File>
-		<File>C:\Huawei Assets\5- Registry\LongPathsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\MicrosoftEdgeInsiderPromotionEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\NetworkThrottlingIndex.reg</File>
-		<File>C:\Huawei Assets\5- Registry\None_for_no_memory_dump.reg</File>
-		<File>C:\Huawei Assets\5- Registry\NtfsDisableLastAccessUpdate.reg</File>
-		<File>C:\Huawei Assets\5- Registry\NumberOfSIUFInPeriod.reg</File>
-		<File>C:\Huawei Assets\5- Registry\NumberOfSIUFInPeriodR.reg</File>
-		<File>C:\Huawei Assets\5- Registry\OemPreInstalledAppsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\PeopleBand.reg</File>
-		<File>C:\Huawei Assets\5- Registry\PersonalizationReportingEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\PreInstalledAppsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\PreInstalledAppsEverEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\PreventUsingAdvancedIndexingOptions.reg</File>
-		<File>C:\Huawei Assets\5- Registry\PublishUserActivities.reg</File>
-		<File>C:\Huawei Assets\5- Registry\RPSessionInterval.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ScoobeSystemSettingEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SearchOrderConfig.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SensorPermissionState.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ShowHibernateOption.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ShowMicrosoftRewards.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ShowRecommendationsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SilentInstalledAppsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Start.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Status.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SubscribedContent338387Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SubscribedContent338388Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SubscribedContent338389Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SubscribedContent353698Enabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SystemPaneSuggestionsEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\SystemResponsiveness.reg</File>
-		<File>C:\Huawei Assets\5- Registry\TamperProtection.reg</File>
-		<File>C:\Huawei Assets\5- Registry\TurnOffWindowsCopilot.reg</File>
-		<File>C:\Huawei Assets\5- Registry\TurnOffWindowsCopilotsoft.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Turn_OFF_Windows_Error_Reporting_all_users.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Turn_off_System_Protection_for_all_drives.reg</File>
-		<File>C:\Huawei Assets\5- Registry\UploadUserActivities.reg</File>
-		<File>C:\Huawei Assets\5- Registry\UserFeedbackAllowed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\User_Managed,_Last_Access_Updates_Disabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\Value.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ValueHot.reg</File>
-		<File>C:\Huawei Assets\5- Registry\ValueRep.reg</File>
-		<File>C:\Huawei Assets\5- Registry\WalletDonationEnabled.reg</File>
-		<File>C:\Huawei Assets\5- Registry\WebWidgetAllowed.reg</File>
-		<File>C:\Huawei Assets\5- Registry\fAllowToGetHelp.reg</File>
+		<File>C:\Huawei Assets\4- Registry Keys\Combined\registry.reg</File>
 	</Registry>
 </Preset>
